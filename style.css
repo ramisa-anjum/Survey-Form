@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    color: white;
+    background-image: url("./background_image.jpg");
+  }
+  
+  #form_container {
+    max-width: 1240px;
+    margin: 30px auto;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  #form_title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 5px;
+  }
+  
+  #form_title span {
+    color:red;
+  }
+  
+  #form_description {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.5rem;
+  }
+  
+  #form_header {
+    text-align: center;
+  }
+  
+  #form_content {
+    max-width: 460px;
+    background-color: rgba(0,0,0,0.8);
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  input, select, textarea {
+    display:block;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  input[type=checkbox],input[type=radio] {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .form_element {
+    margin-top:10px;
+    font-size: 30px;
+  }
+  
+  .form_group {
+    margin:2px;
+  }
+  
+  #form_submit {
+    background-color: red;
+    width: 160px;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 15px auto;
+    display:block;
+    cursor: pointer;
+  }
